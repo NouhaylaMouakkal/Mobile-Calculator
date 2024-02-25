@@ -8,123 +8,255 @@
     tools:context=".MainActivity" >
 
     <Button
-        android:id="@+id/btn_eq"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="="
-        android:width=""
+        android:id="@+id/btn_del"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_margin="3dp"
+        android:backgroundTint="@color/red"
+        android:textColor="@color/white"
+        android:text="DEL"
+        android:textSize="24dp"
+        android:textStyle="bold"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="605dp" />
+        tools:layout_editor_absoluteX="307dp"
+        tools:layout_editor_absoluteY="285dp" />
+
+    <Button
+        android:id="@+id/btn_eq"
+        android:layout_width="374dp"
+        android:layout_height="65dp"
+        android:backgroundTint="@color/paper_white"
+        android:textColor="@color/black"
+        android:text="="
+        android:textSize="24dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="641dp" />
 
     <Button
         android:id="@+id/btn_pls"
         android:layout_width="0dp"
-        android:layout_height="80dp"
-        android:layout_margin="8dp"
+        android:layout_height="70dp"
+        android:layout_margin="3dp"
+        android:backgroundTint="@color/paper_white"
+        android:textColor="@color/black"
         android:text="+"
+        android:textSize="24dp"
+        android:textStyle="bold"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="250dp"
-        tools:layout_editor_absoluteY="539dp" />
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="555dp" />
+
+    <Button
+        android:id="@+id/btn_sub"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/paper_white"
+        android:textColor="@color/black"
+        android:text="-"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="307dp"
+        tools:layout_editor_absoluteY="555dp" />
+
+    <Button
+        android:id="@+id/btn_mul"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_margin="3dp"
+        android:text="x"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/paper_white"
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="307dp"
+        tools:layout_editor_absoluteY="471dp" />
+
+    <Button
+        android:id="@+id/btn_div"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_margin="3dp"
+        android:backgroundTint="@color/paper_white"
+        android:textColor="@color/black"
+        android:text="%"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="307dp"
+        tools:layout_editor_absoluteY="377dp" />
+
     <Button
         android:id="@+id/btn_comma"
         android:layout_width="0dp"
-        android:layout_height="80dp"
-        android:layout_margin="8dp"
+        android:layout_height="70dp"
+        android:layout_margin="3dp"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/black"
         android:text=","
+        android:textSize="24dp"
+        android:textStyle="bold"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="134dp"
-        tools:layout_editor_absoluteY="539dp" />
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="555dp" />
+
     <Button
         android:id="@+id/btn0"
         android:layout_width="0dp"
-        android:layout_height="80dp"
-        android:layout_margin="8dp"
+        android:layout_height="70dp"
+        android:layout_margin="3dp"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/black"
         android:text="0"
+        android:textSize="24dp"
+        android:textStyle="bold"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="539dp" />
+        tools:layout_editor_absoluteY="555dp" />
 
     <Button
         android:id="@+id/btn6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_margin="3dp"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/black"
         android:text="6"
+        android:textSize="24dp"
+        android:textStyle="bold"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="250dp"
-        tools:layout_editor_absoluteY="398dp" />
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="377dp" />
 
     <Button
         android:id="@+id/btn9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_margin="3dp"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/black"
         android:text="9"
+        android:textSize="24dp"
+        android:textStyle="bold"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="250dp"
-        tools:layout_editor_absoluteY="328dp" />
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="285dp" />
 
     <Button
         android:id="@+id/btn8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_margin="3dp"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/black"
         android:text="8"
+        android:textSize="24dp"
+        android:textStyle="bold"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="134dp"
-        tools:layout_editor_absoluteY="328dp" />
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="285dp" />
 
     <Button
         android:id="@+id/btn5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_margin="3dp"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/black"
         android:text="5"
+        android:textSize="24dp"
+        android:textStyle="bold"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="134dp"
-        tools:layout_editor_absoluteY="398dp" />
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="377dp" />
 
     <Button
         android:id="@+id/btn2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_margin="3dp"
         android:text="2"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/black"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteX="115dp"
         tools:layout_editor_absoluteY="471dp" />
 
     <Button
         android:id="@+id/btn1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_margin="3dp"
         android:text="1"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/black"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="471dp"
         tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/btn7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_margin="3dp"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/black"
         android:text="7"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="328dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="285dp" />
 
     <Button
         android:id="@+id/btn4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_margin="3dp"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/black"
         android:text="4"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="398dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="377dp" />
 
     <Button
         android:id="@+id/btn3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_margin="3dp"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/black"
         android:text="3"
+        android:textSize="24dp"
+        android:textStyle="bold"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="250dp"
+        tools:layout_editor_absoluteX="212dp"
         tools:layout_editor_absoluteY="471dp" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="370dp"
+        android:layout_height="108dp"
+        android:background="@color/grey"
+        android:gravity="end|bottom"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="38dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="117dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
